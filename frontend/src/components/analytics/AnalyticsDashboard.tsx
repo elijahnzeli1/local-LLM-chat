@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import {
   Box,
   Grid,
+  GridItem,
   Heading,
   Text,
   Select,
@@ -121,14 +122,29 @@ export default function AnalyticsDashboard() {
           templateColumns="repeat(2, 1fr)"
           gap={6}
         >
-          <MessageStatsCard stats={analytics.messageStats} />
-          <TimeStatsCard stats={analytics.timeStats} />
-          <CategoryStatsCard stats={analytics.categoryStats} />
-          <TagStatsCard stats={analytics.tagStats} />
-          <ConversationStatsCard
-            stats={analytics.conversationStats}
-            gridColumn="1 / -1"
-          />
+          <GridItem colSpan={1}>
+            <MessageStatsCard stats={analytics.messageStats} />
+          </GridItem>
+          <GridItem colSpan={1}>
+            <TimeStatsCard stats={analytics.timeStats} />
+          </GridItem>
+          <GridItem colSpan={1}>
+            <CategoryStatsCard stats={analytics.categoryStats} />
+          </GridItem>
+          <Grid
+            templateColumns="repeat(2, 1fr)"
+            gap={4}
+            w="full"
+          >
+            <GridItem colSpan={1}>
+              <TagStatsCard stats={analytics.tagStats} />
+            </GridItem>
+            <GridItem colSpan={2}>
+              <ConversationStatsCard
+                stats={analytics.conversationStats}
+              />
+            </GridItem>
+          </Grid>
         </Grid>
       ) : (
         <Text>No analytics data available</Text>

@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Box,
   Button,
@@ -24,7 +23,7 @@ const PRESET_COLORS = [
   '#B7791F', '#D69E2E', '#ECC94B', '#F6E05E', // Yellows
 ];
 
-export function ColorPicker({ colors, onChange }: Props) {
+export const ColorPicker = ({ colors, onChange }: Props) => {
   const bgColor = useColorModeValue('white', 'gray.800');
   const borderColor = useColorModeValue('gray.200', 'gray.600');
 

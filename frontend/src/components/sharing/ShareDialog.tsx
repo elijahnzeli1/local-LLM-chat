@@ -1,24 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Modal,
   ModalOverlay,
   ModalContent,
   ModalHeader,
-  ModalBody,
   ModalFooter,
+  ModalBody,
   Button,
   VStack,
-  Input,
-  Text,
-  useToast,
-  List,
-  ListItem,
   HStack,
+  Text,
+  Input,
+  useToast,
   IconButton,
   Badge,
+  List,
+  ListItem,
 } from '@chakra-ui/react';
 import { FiCopy, FiUserPlus, FiUserMinus } from 'react-icons/fi';
-import { ShareInvite } from '../../types/sharing';
 
 interface Props {
   isOpen: boolean;
