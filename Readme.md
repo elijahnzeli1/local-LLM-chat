@@ -82,7 +82,7 @@ Python: Backend for AI/ML tasks, RAG pipeline, model interaction, and internet d
 JavaScript: Frontend development for a responsive and user-friendly chat interface as provided in the image. Use frameworks like vite.js, Next.js for chat UI development.
 This combination provides a robust and efficient solution for building an AI chat application that leverages the power of local LLMs, internet data retrieval, and real-time information integration.
 
-## installation
+## Installation
 
 1. Clone the repository: git clone <https://github.com/elijahnzeli1/Local-llm-chat.git>
 2. Navigate to the repository directory: cd Local-llm-chat
