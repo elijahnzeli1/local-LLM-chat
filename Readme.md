@@ -1,4 +1,4 @@
-# Develop an AI Chat application powered by local Language Models (LLMs) hosted in LM Studio. This application should have the following capabilities
+# Open Source AI Chat application powered by local Language Models (LLMs) hosted in LM Studio. This application should and have the following capabilities
 
 ## Core Features
 
