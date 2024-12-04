@@ -1,6 +1,24 @@
 import os
 import shutil
 import subprocess
+import time
+
+def wait_for_file_access(filepath, retries=5, delay=2):
+    """
+    Waits for a file to become accessible for reading.
+    Args:
+        filepath (str): Path to the file.
+        retries (int): Number of retries.
+        delay (int): Delay between retries in seconds.
+    Returns:
+        bool: True if file is accessible, False otherwise.
+    """
+    for _ in range(retries):
+        if os.path.exists(filepath) and os.access(filepath, os.R_OK):
+            return True
+        print(f"File {filepath} is not accessible. Retrying in {delay} seconds...")
+        time.sleep(delay)
+    return False
 
 def create_dist():
     # Base paths
@@ -14,10 +32,10 @@ def create_dist():
     
     # Copy backend executable
     backend_exe = os.path.join(base_dir, 'backend', 'dist', 'main.exe')
-    if os.path.exists(backend_exe):
+    if wait_for_file_access(backend_exe):
         shutil.copy2(backend_exe, os.path.join(dist_dir, 'backend.exe'))
     else:
-        print("Warning: backend.exe not found!")
+        print("Warning: backend.exe not found or inaccessible!")
     
     # Copy launcher
     launcher_exe = os.path.join(base_dir, 'dist', 'Local LLM Chat.exe')
@@ -26,11 +44,11 @@ def create_dist():
         print("Building launcher...")
         subprocess.run(['pyinstaller', 'launcher.spec'], check=True)
     
-    if os.path.exists(launcher_exe):
+    if wait_for_file_access(launcher_exe):
         shutil.copy2(launcher_exe, os.path.join(dist_dir, 'Local LLM Chat.exe'))
     else:
         print("Error: Failed to build or find Local LLM Chat.exe!")
-    
+
     # Create frontend directory and copy files
     frontend_dist = os.path.join(base_dir, 'frontend', 'dist')
     if os.path.exists(frontend_dist):
