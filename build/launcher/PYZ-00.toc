@@ -1,6 +1,7 @@
-('c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+('C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
  'chat\\build\\launcher\\PYZ-00.pyz',
- [('_compat_pickle', 'C:\\Python312\\Lib\\_compat_pickle.py', 'PYMODULE'),
+ [('__future__', 'C:\\Python312\\Lib\\__future__.py', 'PYMODULE'),
+  ('_compat_pickle', 'C:\\Python312\\Lib\\_compat_pickle.py', 'PYMODULE'),
   ('_compression', 'C:\\Python312\\Lib\\_compression.py', 'PYMODULE'),
   ('_py_abc', 'C:\\Python312\\Lib\\_py_abc.py', 'PYMODULE'),
   ('_pydatetime', 'C:\\Python312\\Lib\\_pydatetime.py', 'PYMODULE'),
@@ -17,6 +18,8 @@
   ('contextvars', 'C:\\Python312\\Lib\\contextvars.py', 'PYMODULE'),
   ('copy', 'C:\\Python312\\Lib\\copy.py', 'PYMODULE'),
   ('csv', 'C:\\Python312\\Lib\\csv.py', 'PYMODULE'),
+  ('ctypes', 'C:\\Python312\\Lib\\ctypes\\__init__.py', 'PYMODULE'),
+  ('ctypes._endian', 'C:\\Python312\\Lib\\ctypes\\_endian.py', 'PYMODULE'),
   ('dataclasses', 'C:\\Python312\\Lib\\dataclasses.py', 'PYMODULE'),
   ('datetime', 'C:\\Python312\\Lib\\datetime.py', 'PYMODULE'),
   ('decimal', 'C:\\Python312\\Lib\\decimal.py', 'PYMODULE'),
@@ -123,7 +126,24 @@
   ('opcode', 'C:\\Python312\\Lib\\opcode.py', 'PYMODULE'),
   ('pathlib', 'C:\\Python312\\Lib\\pathlib.py', 'PYMODULE'),
   ('pickle', 'C:\\Python312\\Lib\\pickle.py', 'PYMODULE'),
+  ('platform', 'C:\\Python312\\Lib\\platform.py', 'PYMODULE'),
   ('pprint', 'C:\\Python312\\Lib\\pprint.py', 'PYMODULE'),
+  ('psutil',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\psutil\\__init__.py',
+   'PYMODULE'),
+  ('psutil._common',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\psutil\\_common.py',
+   'PYMODULE'),
+  ('psutil._compat',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\psutil\\_compat.py',
+   'PYMODULE'),
+  ('psutil._pswindows',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\psutil\\_pswindows.py',
+   'PYMODULE'),
   ('py_compile', 'C:\\Python312\\Lib\\py_compile.py', 'PYMODULE'),
   ('quopri', 'C:\\Python312\\Lib\\quopri.py', 'PYMODULE'),
   ('random', 'C:\\Python312\\Lib\\random.py', 'PYMODULE'),
