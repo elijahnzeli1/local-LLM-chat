@@ -1,0 +1,4016 @@
+(['c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM chat\\backend\\main.py'],
+ ['c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM chat'],
+ ['uvicorn.logging',
+  'uvicorn.protocols',
+  'uvicorn.lifespan',
+  'uvicorn.protocols.http',
+  'uvicorn.protocols.http.auto',
+  'uvicorn.protocols.websockets',
+  'uvicorn.protocols.websockets.auto'],
+ [('C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\numpy\\_pyinstaller',
+   0),
+  ('c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
+   -1000),
+  ('c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib',
+   -1000)],
+ {},
+ [],
+ [],
+ False,
+ {},
+ 0,
+ [],
+ [('.env',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM chat\\backend\\.env',
+   'DATA')],
+ '3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_cryptography_openssl',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_cryptography_openssl.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM chat\\backend\\main.py',
+   'PYSOURCE')],
+ [('pkg_resources',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('subprocess', 'C:\\Python312\\Lib\\subprocess.py', 'PYMODULE'),
+  ('selectors', 'C:\\Python312\\Lib\\selectors.py', 'PYMODULE'),
+  ('contextlib', 'C:\\Python312\\Lib\\contextlib.py', 'PYMODULE'),
+  ('threading', 'C:\\Python312\\Lib\\threading.py', 'PYMODULE'),
+  ('_threading_local', 'C:\\Python312\\Lib\\_threading_local.py', 'PYMODULE'),
+  ('signal', 'C:\\Python312\\Lib\\signal.py', 'PYMODULE'),
+  ('struct', 'C:\\Python312\\Lib\\struct.py', 'PYMODULE'),
+  ('logging', 'C:\\Python312\\Lib\\logging\\__init__.py', 'PYMODULE'),
+  ('pickle', 'C:\\Python312\\Lib\\pickle.py', 'PYMODULE'),
+  ('pprint', 'C:\\Python312\\Lib\\pprint.py', 'PYMODULE'),
+  ('dataclasses', 'C:\\Python312\\Lib\\dataclasses.py', 'PYMODULE'),
+  ('copy', 'C:\\Python312\\Lib\\copy.py', 'PYMODULE'),
+  ('_compat_pickle', 'C:\\Python312\\Lib\\_compat_pickle.py', 'PYMODULE'),
+  ('string', 'C:\\Python312\\Lib\\string.py', 'PYMODULE'),
+  ('packaging.metadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('email.policy', 'C:\\Python312\\Lib\\email\\policy.py', 'PYMODULE'),
+  ('email', 'C:\\Python312\\Lib\\email\\__init__.py', 'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Python312\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Python312\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64', 'C:\\Python312\\Lib\\base64.py', 'PYMODULE'),
+  ('getopt', 'C:\\Python312\\Lib\\getopt.py', 'PYMODULE'),
+  ('gettext', 'C:\\Python312\\Lib\\gettext.py', 'PYMODULE'),
+  ('urllib', 'C:\\Python312\\Lib\\urllib\\__init__.py', 'PYMODULE'),
+  ('email.charset', 'C:\\Python312\\Lib\\email\\charset.py', 'PYMODULE'),
+  ('email.encoders', 'C:\\Python312\\Lib\\email\\encoders.py', 'PYMODULE'),
+  ('quopri', 'C:\\Python312\\Lib\\quopri.py', 'PYMODULE'),
+  ('email.quoprimime', 'C:\\Python312\\Lib\\email\\quoprimime.py', 'PYMODULE'),
+  ('email.base64mime', 'C:\\Python312\\Lib\\email\\base64mime.py', 'PYMODULE'),
+  ('email.errors', 'C:\\Python312\\Lib\\email\\errors.py', 'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Python312\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Python312\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.utils', 'C:\\Python312\\Lib\\email\\utils.py', 'PYMODULE'),
+  ('email._parseaddr', 'C:\\Python312\\Lib\\email\\_parseaddr.py', 'PYMODULE'),
+  ('calendar', 'C:\\Python312\\Lib\\calendar.py', 'PYMODULE'),
+  ('argparse', 'C:\\Python312\\Lib\\argparse.py', 'PYMODULE'),
+  ('shutil', 'C:\\Python312\\Lib\\shutil.py', 'PYMODULE'),
+  ('tarfile', 'C:\\Python312\\Lib\\tarfile.py', 'PYMODULE'),
+  ('gzip', 'C:\\Python312\\Lib\\gzip.py', 'PYMODULE'),
+  ('_compression', 'C:\\Python312\\Lib\\_compression.py', 'PYMODULE'),
+  ('lzma', 'C:\\Python312\\Lib\\lzma.py', 'PYMODULE'),
+  ('bz2', 'C:\\Python312\\Lib\\bz2.py', 'PYMODULE'),
+  ('fnmatch', 'C:\\Python312\\Lib\\fnmatch.py', 'PYMODULE'),
+  ('urllib.parse', 'C:\\Python312\\Lib\\urllib\\parse.py', 'PYMODULE'),
+  ('ipaddress', 'C:\\Python312\\Lib\\ipaddress.py', 'PYMODULE'),
+  ('datetime', 'C:\\Python312\\Lib\\datetime.py', 'PYMODULE'),
+  ('_pydatetime', 'C:\\Python312\\Lib\\_pydatetime.py', 'PYMODULE'),
+  ('_strptime', 'C:\\Python312\\Lib\\_strptime.py', 'PYMODULE'),
+  ('socket', 'C:\\Python312\\Lib\\socket.py', 'PYMODULE'),
+  ('random', 'C:\\Python312\\Lib\\random.py', 'PYMODULE'),
+  ('statistics', 'C:\\Python312\\Lib\\statistics.py', 'PYMODULE'),
+  ('decimal', 'C:\\Python312\\Lib\\decimal.py', 'PYMODULE'),
+  ('_pydecimal', 'C:\\Python312\\Lib\\_pydecimal.py', 'PYMODULE'),
+  ('contextvars', 'C:\\Python312\\Lib\\contextvars.py', 'PYMODULE'),
+  ('fractions', 'C:\\Python312\\Lib\\fractions.py', 'PYMODULE'),
+  ('numbers', 'C:\\Python312\\Lib\\numbers.py', 'PYMODULE'),
+  ('hashlib', 'C:\\Python312\\Lib\\hashlib.py', 'PYMODULE'),
+  ('bisect', 'C:\\Python312\\Lib\\bisect.py', 'PYMODULE'),
+  ('email._policybase',
+   'C:\\Python312\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.message', 'C:\\Python312\\Lib\\email\\message.py', 'PYMODULE'),
+  ('email.iterators', 'C:\\Python312\\Lib\\email\\iterators.py', 'PYMODULE'),
+  ('email.generator', 'C:\\Python312\\Lib\\email\\generator.py', 'PYMODULE'),
+  ('email.header', 'C:\\Python312\\Lib\\email\\header.py', 'PYMODULE'),
+  ('email.feedparser', 'C:\\Python312\\Lib\\email\\feedparser.py', 'PYMODULE'),
+  ('packaging.licenses._spdx',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\licenses\\_spdx.py',
+   'PYMODULE'),
+  ('packaging.licenses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\licenses\\__init__.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('ast', 'C:\\Python312\\Lib\\ast.py', 'PYMODULE'),
+  ('packaging._musllinux',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('ctypes', 'C:\\Python312\\Lib\\ctypes\\__init__.py', 'PYMODULE'),
+  ('ctypes._endian', 'C:\\Python312\\Lib\\ctypes\\_endian.py', 'PYMODULE'),
+  ('packaging._elffile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('sysconfig', 'C:\\Python312\\Lib\\sysconfig.py', 'PYMODULE'),
+  ('_aix_support', 'C:\\Python312\\Lib\\_aix_support.py', 'PYMODULE'),
+  ('typing_extensions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.android',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\android.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.unix',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\unix.py',
+   'PYMODULE'),
+  ('configparser', 'C:\\Python312\\Lib\\configparser.py', 'PYMODULE'),
+  ('setuptools._vendor.platformdirs.macos',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\macos.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.windows',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\windows.py',
+   'PYMODULE'),
+  ('setuptools._vendor', '-', 'PYMODULE'),
+  ('setuptools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.recipes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('setuptools._vendor.more_itertools.more',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('queue', 'C:\\Python312\\Lib\\queue.py', 'PYMODULE'),
+  ('json', 'C:\\Python312\\Lib\\json\\__init__.py', 'PYMODULE'),
+  ('json.encoder', 'C:\\Python312\\Lib\\json\\encoder.py', 'PYMODULE'),
+  ('json.decoder', 'C:\\Python312\\Lib\\json\\decoder.py', 'PYMODULE'),
+  ('json.scanner', 'C:\\Python312\\Lib\\json\\scanner.py', 'PYMODULE'),
+  ('setuptools._distutils.command.build_ext',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\version.py',
+   'PYMODULE'),
+  ('setuptools._distutils.archive_util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.spawn',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\spawn.py',
+   'PYMODULE'),
+  ('setuptools._distutils.debug',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\debug.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dir_util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dir_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.file_util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\file_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils._msvccompiler',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('unittest.mock', 'C:\\Python312\\Lib\\unittest\\mock.py', 'PYMODULE'),
+  ('unittest', 'C:\\Python312\\Lib\\unittest\\__init__.py', 'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Python312\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.signals', 'C:\\Python312\\Lib\\unittest\\signals.py', 'PYMODULE'),
+  ('unittest.main', 'C:\\Python312\\Lib\\unittest\\main.py', 'PYMODULE'),
+  ('unittest.runner', 'C:\\Python312\\Lib\\unittest\\runner.py', 'PYMODULE'),
+  ('unittest.loader', 'C:\\Python312\\Lib\\unittest\\loader.py', 'PYMODULE'),
+  ('unittest.suite', 'C:\\Python312\\Lib\\unittest\\suite.py', 'PYMODULE'),
+  ('unittest.case', 'C:\\Python312\\Lib\\unittest\\case.py', 'PYMODULE'),
+  ('unittest._log', 'C:\\Python312\\Lib\\unittest\\_log.py', 'PYMODULE'),
+  ('difflib', 'C:\\Python312\\Lib\\difflib.py', 'PYMODULE'),
+  ('unittest.result', 'C:\\Python312\\Lib\\unittest\\result.py', 'PYMODULE'),
+  ('unittest.util', 'C:\\Python312\\Lib\\unittest\\util.py', 'PYMODULE'),
+  ('asyncio', 'C:\\Python312\\Lib\\asyncio\\__init__.py', 'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Python312\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log', 'C:\\Python312\\Lib\\asyncio\\log.py', 'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Python312\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Python312\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Python312\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('ssl', 'C:\\Python312\\Lib\\ssl.py', 'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Python312\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Python312\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads', 'C:\\Python312\\Lib\\asyncio\\threads.py', 'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Python312\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Python312\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams', 'C:\\Python312\\Lib\\asyncio\\streams.py', 'PYMODULE'),
+  ('asyncio.queues', 'C:\\Python312\\Lib\\asyncio\\queues.py', 'PYMODULE'),
+  ('asyncio.runners', 'C:\\Python312\\Lib\\asyncio\\runners.py', 'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Python312\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.trsock', 'C:\\Python312\\Lib\\asyncio\\trsock.py', 'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Python312\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.timeouts', 'C:\\Python312\\Lib\\asyncio\\timeouts.py', 'PYMODULE'),
+  ('asyncio.tasks', 'C:\\Python312\\Lib\\asyncio\\tasks.py', 'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Python312\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks', 'C:\\Python312\\Lib\\asyncio\\locks.py', 'PYMODULE'),
+  ('asyncio.mixins', 'C:\\Python312\\Lib\\asyncio\\mixins.py', 'PYMODULE'),
+  ('asyncio.sslproto', 'C:\\Python312\\Lib\\asyncio\\sslproto.py', 'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Python312\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Python312\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures', 'C:\\Python312\\Lib\\asyncio\\futures.py', 'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Python312\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Python312\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.events', 'C:\\Python312\\Lib\\asyncio\\events.py', 'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Python312\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Python312\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Python312\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Python312\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Python312\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Python312\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Python312\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Python312\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Python312\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Python312\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy', 'C:\\Python312\\Lib\\runpy.py', 'PYMODULE'),
+  ('importlib.util', 'C:\\Python312\\Lib\\importlib\\util.py', 'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Python312\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Python312\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Python312\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Python312\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Python312\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Python312\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Python312\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Python312\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('csv', 'C:\\Python312\\Lib\\csv.py', 'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Python312\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Python312\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Python312\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Python312\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Python312\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Python312\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Python312\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Python312\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('tokenize', 'C:\\Python312\\Lib\\tokenize.py', 'PYMODULE'),
+  ('token', 'C:\\Python312\\Lib\\token.py', 'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Python312\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._abc', 'C:\\Python312\\Lib\\importlib\\_abc.py', 'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Python312\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Python312\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Python312\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Python312\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Python312\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Python312\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Python312\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Python312\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Python312\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Python312\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Python312\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Python312\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Python312\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Python312\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets', 'C:\\Python312\\Lib\\secrets.py', 'PYMODULE'),
+  ('hmac', 'C:\\Python312\\Lib\\hmac.py', 'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Python312\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Python312\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Python312\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Python312\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('xmlrpc.client', 'C:\\Python312\\Lib\\xmlrpc\\client.py', 'PYMODULE'),
+  ('xmlrpc', 'C:\\Python312\\Lib\\xmlrpc\\__init__.py', 'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Python312\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers', 'C:\\Python312\\Lib\\xml\\parsers\\__init__.py', 'PYMODULE'),
+  ('xml', 'C:\\Python312\\Lib\\xml\\__init__.py', 'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Python312\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils', 'C:\\Python312\\Lib\\xml\\sax\\saxutils.py', 'PYMODULE'),
+  ('urllib.request', 'C:\\Python312\\Lib\\urllib\\request.py', 'PYMODULE'),
+  ('getpass', 'C:\\Python312\\Lib\\getpass.py', 'PYMODULE'),
+  ('nturl2path', 'C:\\Python312\\Lib\\nturl2path.py', 'PYMODULE'),
+  ('ftplib', 'C:\\Python312\\Lib\\ftplib.py', 'PYMODULE'),
+  ('netrc', 'C:\\Python312\\Lib\\netrc.py', 'PYMODULE'),
+  ('mimetypes', 'C:\\Python312\\Lib\\mimetypes.py', 'PYMODULE'),
+  ('http.cookiejar', 'C:\\Python312\\Lib\\http\\cookiejar.py', 'PYMODULE'),
+  ('http', 'C:\\Python312\\Lib\\http\\__init__.py', 'PYMODULE'),
+  ('http.cookies', 'C:\\Python312\\Lib\\http\\cookies.py', 'PYMODULE'),
+  ('urllib.response', 'C:\\Python312\\Lib\\urllib\\response.py', 'PYMODULE'),
+  ('urllib.error', 'C:\\Python312\\Lib\\urllib\\error.py', 'PYMODULE'),
+  ('xml.sax', 'C:\\Python312\\Lib\\xml\\sax\\__init__.py', 'PYMODULE'),
+  ('xml.sax.handler', 'C:\\Python312\\Lib\\xml\\sax\\handler.py', 'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Python312\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Python312\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client', 'C:\\Python312\\Lib\\http\\client.py', 'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Python312\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Python312\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent', 'C:\\Python312\\Lib\\concurrent\\__init__.py', 'PYMODULE'),
+  ('setuptools._distutils.ccompiler',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('setuptools._distutils.fancy_getopt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('setuptools._distutils.util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\util.py',
+   'PYMODULE'),
+  ('py_compile', 'C:\\Python312\\Lib\\py_compile.py', 'PYMODULE'),
+  ('setuptools._distutils.compat.py38',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\__init__.py',
+   'PYMODULE'),
+  ('jaraco', '-', 'PYMODULE'),
+  ('setuptools._vendor.jaraco.functools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\functools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco', '-', 'PYMODULE'),
+  ('setuptools._distutils.sysconfig',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('setuptools._distutils.text_file',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\text_file.py',
+   'PYMODULE'),
+  ('setuptools._distutils.compat.py39',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._distutils.extension',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools._distutils._modified',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_modified.py',
+   'PYMODULE'),
+  ('site', 'C:\\Python312\\Lib\\site.py', 'PYMODULE'),
+  ('rlcompleter', 'C:\\Python312\\Lib\\rlcompleter.py', 'PYMODULE'),
+  ('_sitebuiltins', 'C:\\Python312\\Lib\\_sitebuiltins.py', 'PYMODULE'),
+  ('pydoc', 'C:\\Python312\\Lib\\pydoc.py', 'PYMODULE'),
+  ('webbrowser', 'C:\\Python312\\Lib\\webbrowser.py', 'PYMODULE'),
+  ('shlex', 'C:\\Python312\\Lib\\shlex.py', 'PYMODULE'),
+  ('http.server', 'C:\\Python312\\Lib\\http\\server.py', 'PYMODULE'),
+  ('socketserver', 'C:\\Python312\\Lib\\socketserver.py', 'PYMODULE'),
+  ('html', 'C:\\Python312\\Lib\\html\\__init__.py', 'PYMODULE'),
+  ('html.entities', 'C:\\Python312\\Lib\\html\\entities.py', 'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Python312\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data', 'C:\\Python312\\Lib\\pydoc_data\\__init__.py', 'PYMODULE'),
+  ('tty', 'C:\\Python312\\Lib\\tty.py', 'PYMODULE'),
+  ('setuptools._distutils._log',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\_log.py',
+   'PYMODULE'),
+  ('setuptools._distutils.errors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\errors.py',
+   'PYMODULE'),
+  ('setuptools._distutils.core',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\core.py',
+   'PYMODULE'),
+  ('setuptools._distutils.dist',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\dist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.versionpredicate',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('setuptools._distutils.cmd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools.warnings',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\warnings.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._importlib',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_importlib.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._adapters',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._text',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._itertools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._functools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._collections',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py311',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat.py39',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata.compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.importlib_metadata._meta',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.glob',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\glob.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat.py310',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.zipp.compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\zipp\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools._path',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_path.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_wheel',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.macosx_libfile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\macosx_libfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel._setuptools_logging',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\_setuptools_logging.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools._distutils.filelist',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\filelist.py',
+   'PYMODULE'),
+  ('setuptools.command._requirestxt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\_requirestxt.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.sdist',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.build',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.build',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\build.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.compat.py39',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\compat\\py39.py',
+   'PYMODULE'),
+  ('setuptools.compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\compat\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py311',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\compat\\py311.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.wheelfile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\wheelfile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\util.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.tags',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.convert',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\convert.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.bdist_wheel',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\bdist_wheel.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._structures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.tags',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._musllinux',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._elffile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._manylinux',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.metadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\metadata.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.requirements',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.specifiers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging.markers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._tokenizer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.vendored.packaging._parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\vendored\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.pack',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\pack.py',
+   'PYMODULE'),
+  ('setuptools._vendor.wheel.cli.unpack',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel\\cli\\unpack.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools._distutils.log',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\log.py',
+   'PYMODULE'),
+  ('setuptools.config.setupcfg',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\setupcfg.py',
+   'PYMODULE'),
+  ('setuptools.config.expand',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\expand.py',
+   'PYMODULE'),
+  ('setuptools.errors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\errors.py',
+   'PYMODULE'),
+  ('setuptools.config.pyprojecttoml',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_validations',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.fastjsonschema_exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\fastjsonschema_exceptions.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.extra_validations',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\extra_validations.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.error_reporting',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\error_reporting.py',
+   'PYMODULE'),
+  ('setuptools.config._validate_pyproject.formats',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_validate_pyproject\\formats.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._musllinux',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._elffile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._manylinux',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._tokenizer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.compat.py310',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\compat\\py310.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_parser.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_types.py',
+   'PYMODULE'),
+  ('setuptools._vendor.tomli._re',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\tomli\\_re.py',
+   'PYMODULE'),
+  ('tomllib', 'C:\\Python312\\Lib\\tomllib\\__init__.py', 'PYMODULE'),
+  ('tomllib._parser', 'C:\\Python312\\Lib\\tomllib\\_parser.py', 'PYMODULE'),
+  ('tomllib._types', 'C:\\Python312\\Lib\\tomllib\\_types.py', 'PYMODULE'),
+  ('tomllib._re', 'C:\\Python312\\Lib\\tomllib\\_re.py', 'PYMODULE'),
+  ('setuptools.config._apply_pyprojecttoml',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\_apply_pyprojecttoml.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\config\\__init__.py',
+   'PYMODULE'),
+  ('glob', 'C:\\Python312\\Lib\\glob.py', 'PYMODULE'),
+  ('setuptools._shutil',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_shutil.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('ctypes.wintypes', 'C:\\Python312\\Lib\\ctypes\\wintypes.py', 'PYMODULE'),
+  ('setuptools.command',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._distutils.command.bdist',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools._entry_points',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_entry_points.py',
+   'PYMODULE'),
+  ('setuptools._itertools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_itertools.py',
+   'PYMODULE'),
+  ('setuptools.discovery',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\discovery.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('dis', 'C:\\Python312\\Lib\\dis.py', 'PYMODULE'),
+  ('opcode', 'C:\\Python312\\Lib\\opcode.py', 'PYMODULE'),
+  ('setuptools._imp',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools.logging',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\logging.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('setuptools._core_metadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_core_metadata.py',
+   'PYMODULE'),
+  ('setuptools._reqs',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_reqs.py',
+   'PYMODULE'),
+  ('setuptools._normalization',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_normalization.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.platformdirs.api',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\platformdirs\\api.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.text',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.jaraco.context',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat.py38',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\py38.py',
+   'PYMODULE'),
+  ('setuptools._vendor.backports.tarfile.compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\tarfile\\compat\\__init__.py',
+   'PYMODULE'),
+  ('backports',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('typing', 'C:\\Python312\\Lib\\typing.py', 'PYMODULE'),
+  ('zipimport', 'C:\\Python312\\Lib\\zipimport.py', 'PYMODULE'),
+  ('zipfile', 'C:\\Python312\\Lib\\zipfile\\__init__.py', 'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Python312\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Python312\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE'),
+  ('textwrap', 'C:\\Python312\\Lib\\textwrap.py', 'PYMODULE'),
+  ('tempfile', 'C:\\Python312\\Lib\\tempfile.py', 'PYMODULE'),
+  ('plistlib', 'C:\\Python312\\Lib\\plistlib.py', 'PYMODULE'),
+  ('platform', 'C:\\Python312\\Lib\\platform.py', 'PYMODULE'),
+  ('pkgutil', 'C:\\Python312\\Lib\\pkgutil.py', 'PYMODULE'),
+  ('inspect', 'C:\\Python312\\Lib\\inspect.py', 'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Python312\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.abc', 'C:\\Python312\\Lib\\importlib\\abc.py', 'PYMODULE'),
+  ('importlib', 'C:\\Python312\\Lib\\importlib\\__init__.py', 'PYMODULE'),
+  ('email.parser', 'C:\\Python312\\Lib\\email\\parser.py', 'PYMODULE'),
+  ('__future__', 'C:\\Python312\\Lib\\__future__.py', 'PYMODULE'),
+  ('pathlib', 'C:\\Python312\\Lib\\pathlib.py', 'PYMODULE'),
+  ('uvicorn.protocols.websockets.auto',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.websockets_impl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\websockets_impl.py',
+   'PYMODULE'),
+  ('uvicorn.server',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\server.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.httptools_impl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\httptools_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.flow_control',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\flow_control.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.h11_impl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\h11_impl.py',
+   'PYMODULE'),
+  ('h11._connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_connection.py',
+   'PYMODULE'),
+  ('h11._writers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_writers.py',
+   'PYMODULE'),
+  ('h11._util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_util.py',
+   'PYMODULE'),
+  ('h11._state',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_state.py',
+   'PYMODULE'),
+  ('h11._receivebuffer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_receivebuffer.py',
+   'PYMODULE'),
+  ('h11._readers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_readers.py',
+   'PYMODULE'),
+  ('h11._abnf',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_abnf.py',
+   'PYMODULE'),
+  ('h11._headers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_headers.py',
+   'PYMODULE'),
+  ('h11._events',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_events.py',
+   'PYMODULE'),
+  ('h11',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\__init__.py',
+   'PYMODULE'),
+  ('h11._version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\h11\\_version.py',
+   'PYMODULE'),
+  ('uvicorn',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.workers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\workers.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.watchgodreload',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\supervisors\\watchgodreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.watchfilesreload',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\supervisors\\watchfilesreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.statreload',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\supervisors\\statreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.multiprocess',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\supervisors\\multiprocess.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.basereload',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\supervisors\\basereload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\supervisors\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.wsgi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\middleware\\wsgi.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.proxy_headers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\middleware\\proxy_headers.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.message_logger',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\middleware\\message_logger.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.asgi2',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\middleware\\asgi2.py',
+   'PYMODULE'),
+  ('uvicorn.middleware',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.loops.uvloop',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\loops\\uvloop.py',
+   'PYMODULE'),
+  ('uvicorn.loops.auto',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\loops\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.loops.asyncio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\loops\\asyncio.py',
+   'PYMODULE'),
+  ('uvicorn.loops',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\loops\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan.on',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\lifespan\\on.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan.off',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\lifespan\\off.py',
+   'PYMODULE'),
+  ('uvicorn.importer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\importer.py',
+   'PYMODULE'),
+  ('uvicorn._subprocess',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\_subprocess.py',
+   'PYMODULE'),
+  ('uvicorn.__main__',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\__main__.py',
+   'PYMODULE'),
+  ('uvicorn.main',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\main.py',
+   'PYMODULE'),
+  ('click',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('click._compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('colorama',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.termui',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('click.parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('click.globals',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('click.core',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('uuid', 'C:\\Python312\\Lib\\uuid.py', 'PYMODULE'),
+  ('uvicorn.protocols.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\utils.py',
+   'PYMODULE'),
+  ('uvicorn.config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\config.py',
+   'PYMODULE'),
+  ('dotenv',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('logging.config', 'C:\\Python312\\Lib\\logging\\config.py', 'PYMODULE'),
+  ('logging.handlers', 'C:\\Python312\\Lib\\logging\\handlers.py', 'PYMODULE'),
+  ('smtplib', 'C:\\Python312\\Lib\\smtplib.py', 'PYMODULE'),
+  ('uvicorn._types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\_types.py',
+   'PYMODULE'),
+  ('websockets.typing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\typing.py',
+   'PYMODULE'),
+  ('websockets.server',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\server.py',
+   'PYMODULE'),
+  ('websockets.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\utils.py',
+   'PYMODULE'),
+  ('websockets.protocol',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\protocol.py',
+   'PYMODULE'),
+  ('websockets.streams',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\streams.py',
+   'PYMODULE'),
+  ('websockets.frames',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\frames.py',
+   'PYMODULE'),
+  ('websockets.imports',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\imports.py',
+   'PYMODULE'),
+  ('websockets.http11',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\http11.py',
+   'PYMODULE'),
+  ('websockets.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\version.py',
+   'PYMODULE'),
+  ('websockets.headers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\headers.py',
+   'PYMODULE'),
+  ('websockets.extensions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\extensions\\__init__.py',
+   'PYMODULE'),
+  ('websockets.extensions.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\extensions\\base.py',
+   'PYMODULE'),
+  ('websockets.legacy.server',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\server.py',
+   'PYMODULE'),
+  ('websockets.legacy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\__init__.py',
+   'PYMODULE'),
+  ('websockets.legacy.protocol',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\protocol.py',
+   'PYMODULE'),
+  ('websockets.legacy.framing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\framing.py',
+   'PYMODULE'),
+  ('websockets.legacy.http',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\http.py',
+   'PYMODULE'),
+  ('websockets.legacy.handshake',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\handshake.py',
+   'PYMODULE'),
+  ('websockets.legacy.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\exceptions.py',
+   'PYMODULE'),
+  ('websockets.asyncio.compatibility',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\compatibility.py',
+   'PYMODULE'),
+  ('websockets.asyncio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('websockets.asyncio.async_timeout',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\async_timeout.py',
+   'PYMODULE'),
+  ('websockets.extensions.permessage_deflate',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\extensions\\permessage_deflate.py',
+   'PYMODULE'),
+  ('websockets.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\exceptions.py',
+   'PYMODULE'),
+  ('websockets.datastructures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\datastructures.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.wsproto_impl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\wsproto_impl.py',
+   'PYMODULE'),
+  ('websockets',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\__init__.py',
+   'PYMODULE'),
+  ('websockets.uri',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\uri.py',
+   'PYMODULE'),
+  ('websockets.sync.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\sync\\utils.py',
+   'PYMODULE'),
+  ('websockets.sync.server',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\sync\\server.py',
+   'PYMODULE'),
+  ('websockets.sync.messages',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\sync\\messages.py',
+   'PYMODULE'),
+  ('websockets.sync.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\sync\\connection.py',
+   'PYMODULE'),
+  ('websockets.sync.client',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\sync\\client.py',
+   'PYMODULE'),
+  ('websockets.sync',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\sync\\__init__.py',
+   'PYMODULE'),
+  ('websockets.legacy.client',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\client.py',
+   'PYMODULE'),
+  ('websockets.legacy.auth',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\legacy\\auth.py',
+   'PYMODULE'),
+  ('websockets.http',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\http.py',
+   'PYMODULE'),
+  ('websockets.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\connection.py',
+   'PYMODULE'),
+  ('websockets.auth',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\auth.py',
+   'PYMODULE'),
+  ('websockets.asyncio.messages',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\messages.py',
+   'PYMODULE'),
+  ('websockets.asyncio.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\connection.py',
+   'PYMODULE'),
+  ('websockets.__main__',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\__main__.py',
+   'PYMODULE'),
+  ('websockets.client',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\client.py',
+   'PYMODULE'),
+  ('websockets.asyncio.server',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\server.py',
+   'PYMODULE'),
+  ('websockets.asyncio.client',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\asyncio\\client.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\websockets\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.auto',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\http\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\lifespan\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\protocols\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.logging',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\uvicorn\\logging.py',
+   'PYMODULE'),
+  ('tracemalloc', 'C:\\Python312\\Lib\\tracemalloc.py', 'PYMODULE'),
+  ('stringprep', 'C:\\Python312\\Lib\\stringprep.py', 'PYMODULE'),
+  ('_py_abc', 'C:\\Python312\\Lib\\_py_abc.py', 'PYMODULE'),
+  ('httpx',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\__init__.py',
+   'PYMODULE'),
+  ('httpx._main',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_main.py',
+   'PYMODULE'),
+  ('httpcore',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._backends.trio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\trio.py',
+   'PYMODULE'),
+  ('httpcore._backends',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._backends.anyio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\anyio.py',
+   'PYMODULE'),
+  ('httpcore._utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_utils.py',
+   'PYMODULE'),
+  ('anyio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends._trio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_backends\\_trio.py',
+   'PYMODULE'),
+  ('anyio.abc',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\__init__.py',
+   'PYMODULE'),
+  ('anyio.abc._testing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\_testing.py',
+   'PYMODULE'),
+  ('anyio.abc._tasks',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\_tasks.py',
+   'PYMODULE'),
+  ('anyio.abc._subprocesses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio.abc._streams',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\_streams.py',
+   'PYMODULE'),
+  ('anyio.abc._sockets',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\_sockets.py',
+   'PYMODULE'),
+  ('anyio.abc._resources',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\abc\\_resources.py',
+   'PYMODULE'),
+  ('sniffio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\sniffio\\__init__.py',
+   'PYMODULE'),
+  ('sniffio._impl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\sniffio\\_impl.py',
+   'PYMODULE'),
+  ('sniffio._version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\sniffio\\_version.py',
+   'PYMODULE'),
+  ('anyio._backends._asyncio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_backends\\_asyncio.py',
+   'PYMODULE'),
+  ('anyio.lowlevel',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\lowlevel.py',
+   'PYMODULE'),
+  ('anyio._backends',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('anyio.from_thread',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\from_thread.py',
+   'PYMODULE'),
+  ('anyio._core',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\__init__.py',
+   'PYMODULE'),
+  ('anyio._core._typedattr',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_typedattr.py',
+   'PYMODULE'),
+  ('anyio._core._testing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_testing.py',
+   'PYMODULE'),
+  ('anyio._core._tasks',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_tasks.py',
+   'PYMODULE'),
+  ('anyio._core._synchronization',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_synchronization.py',
+   'PYMODULE'),
+  ('anyio._core._subprocesses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio._core._streams',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_streams.py',
+   'PYMODULE'),
+  ('anyio.streams.memory',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\streams\\memory.py',
+   'PYMODULE'),
+  ('anyio.streams',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\streams\\__init__.py',
+   'PYMODULE'),
+  ('anyio._core._sockets',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_sockets.py',
+   'PYMODULE'),
+  ('idna',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('anyio.streams.tls',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\streams\\tls.py',
+   'PYMODULE'),
+  ('anyio.streams.stapled',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\streams\\stapled.py',
+   'PYMODULE'),
+  ('anyio._core._signals',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_signals.py',
+   'PYMODULE'),
+  ('anyio._core._resources',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_resources.py',
+   'PYMODULE'),
+  ('anyio._core._fileio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_fileio.py',
+   'PYMODULE'),
+  ('anyio.to_thread',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\to_thread.py',
+   'PYMODULE'),
+  ('anyio._core._exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('anyio._core._eventloop',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_eventloop.py',
+   'PYMODULE'),
+  ('anyio._core._compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\anyio\\_core\\_compat.py',
+   'PYMODULE'),
+  ('httpcore._sync',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._sync.socks_proxy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\socks_proxy.py',
+   'PYMODULE'),
+  ('httpcore._trace',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_trace.py',
+   'PYMODULE'),
+  ('httpcore._synchronization',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_synchronization.py',
+   'PYMODULE'),
+  ('httpcore._sync.http2',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\http2.py',
+   'PYMODULE'),
+  ('httpcore._sync.interfaces',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\interfaces.py',
+   'PYMODULE'),
+  ('httpcore._sync.http_proxy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\http_proxy.py',
+   'PYMODULE'),
+  ('httpcore._sync.http11',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\http11.py',
+   'PYMODULE'),
+  ('httpcore._sync.connection_pool',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\connection_pool.py',
+   'PYMODULE'),
+  ('httpcore._sync.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_sync\\connection.py',
+   'PYMODULE'),
+  ('httpcore._ssl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_ssl.py',
+   'PYMODULE'),
+  ('certifi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('httpcore._models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_models.py',
+   'PYMODULE'),
+  ('httpcore._exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_exceptions.py',
+   'PYMODULE'),
+  ('httpcore._backends.sync',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\sync.py',
+   'PYMODULE'),
+  ('httpcore._backends.mock',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\mock.py',
+   'PYMODULE'),
+  ('httpcore._backends.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\base.py',
+   'PYMODULE'),
+  ('httpcore._async',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\__init__.py',
+   'PYMODULE'),
+  ('httpcore._async.socks_proxy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\socks_proxy.py',
+   'PYMODULE'),
+  ('httpcore._backends.auto',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_backends\\auto.py',
+   'PYMODULE'),
+  ('httpcore._async.http2',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\http2.py',
+   'PYMODULE'),
+  ('httpcore._async.interfaces',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\interfaces.py',
+   'PYMODULE'),
+  ('httpcore._async.http_proxy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\http_proxy.py',
+   'PYMODULE'),
+  ('httpcore._async.http11',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\http11.py',
+   'PYMODULE'),
+  ('httpcore._async.connection_pool',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\connection_pool.py',
+   'PYMODULE'),
+  ('httpcore._async.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_async\\connection.py',
+   'PYMODULE'),
+  ('httpcore._api',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpcore\\_api.py',
+   'PYMODULE'),
+  ('httpx._urls',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_urls.py',
+   'PYMODULE'),
+  ('httpx._utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_utils.py',
+   'PYMODULE'),
+  ('httpx._urlparse',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_urlparse.py',
+   'PYMODULE'),
+  ('httpx._types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_types.py',
+   'PYMODULE'),
+  ('httpx._transports',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_transports\\__init__.py',
+   'PYMODULE'),
+  ('httpx._transports.wsgi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_transports\\wsgi.py',
+   'PYMODULE'),
+  ('httpx._transports.mock',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_transports\\mock.py',
+   'PYMODULE'),
+  ('httpx._transports.default',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_transports\\default.py',
+   'PYMODULE'),
+  ('httpx._transports.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_transports\\base.py',
+   'PYMODULE'),
+  ('httpx._transports.asgi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_transports\\asgi.py',
+   'PYMODULE'),
+  ('httpx._status_codes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_status_codes.py',
+   'PYMODULE'),
+  ('httpx._models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_models.py',
+   'PYMODULE'),
+  ('httpx._multipart',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_multipart.py',
+   'PYMODULE'),
+  ('httpx._decoders',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_decoders.py',
+   'PYMODULE'),
+  ('httpx._exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_exceptions.py',
+   'PYMODULE'),
+  ('httpx._content',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_content.py',
+   'PYMODULE'),
+  ('httpx._config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_config.py',
+   'PYMODULE'),
+  ('httpx._client',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_client.py',
+   'PYMODULE'),
+  ('httpx._auth',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_auth.py',
+   'PYMODULE'),
+  ('httpx._api',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\_api.py',
+   'PYMODULE'),
+  ('httpx.__version__',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\httpx\\__version__.py',
+   'PYMODULE'),
+  ('rag_handler',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\rag_handler.py',
+   'PYMODULE'),
+  ('conversation_manager',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\conversation_manager.py',
+   'PYMODULE'),
+  ('conversation.models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\conversation\\models.py',
+   'PYMODULE'),
+  ('conversation', '-', 'PYMODULE'),
+  ('pydantic',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.root_model',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\root_model.py',
+   'PYMODULE'),
+  ('pydantic._internal._repr',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_repr.py',
+   'PYMODULE'),
+  ('pydantic._internal._typing_extra',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_typing_extra.py',
+   'PYMODULE'),
+  ('pydantic._internal._utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._dataclasses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_dataclasses.py',
+   'PYMODULE'),
+  ('pydantic._internal._schema_generation_shared',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_schema_generation_shared.py',
+   'PYMODULE'),
+  ('pydantic._internal._mock_val_ser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_mock_val_ser.py',
+   'PYMODULE'),
+  ('pydantic._internal._generics',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_generics.py',
+   'PYMODULE'),
+  ('pydantic._internal._forward_ref',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_forward_ref.py',
+   'PYMODULE'),
+  ('pydantic._internal._fields',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_fields.py',
+   'PYMODULE'),
+  ('annotated_types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\annotated_types\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal._core_utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_core_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._discriminated_union',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_discriminated_union.py',
+   'PYMODULE'),
+  ('pydantic._internal._decorators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py',
+   'PYMODULE'),
+  ('pydantic._internal._internal_dataclass',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py',
+   'PYMODULE'),
+  ('pydantic._internal._config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_config.py',
+   'PYMODULE'),
+  ('pydantic.plugin._schema_validator',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\plugin\\_schema_validator.py',
+   'PYMODULE'),
+  ('pydantic.plugin._loader',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\plugin\\_loader.py',
+   'PYMODULE'),
+  ('pydantic.plugin',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\plugin\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal._decorators_v1',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators_v1.py',
+   'PYMODULE'),
+  ('pydantic._internal._known_annotated_metadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_known_annotated_metadata.py',
+   'PYMODULE'),
+  ('pydantic._internal._validators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validators.py',
+   'PYMODULE'),
+  ('pydantic._internal._model_construction',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py',
+   'PYMODULE'),
+  ('pydantic._internal._validate_call',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py',
+   'PYMODULE'),
+  ('pydantic._internal._core_metadata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_core_metadata.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.tools',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\tools.py',
+   'PYMODULE'),
+  ('pydantic.deprecated',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.copy_internals',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\copy_internals.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\config.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.class_validators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\class_validators.py',
+   'PYMODULE'),
+  ('pydantic.warnings',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\warnings.py',
+   'PYMODULE'),
+  ('pydantic.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\version.py',
+   'PYMODULE'),
+  ('pydantic.validate_call',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\validate_call.py',
+   'PYMODULE'),
+  ('pydantic.type_adapter',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\type_adapter.py',
+   'PYMODULE'),
+  ('pydantic.networks',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\networks.py',
+   'PYMODULE'),
+  ('email_validator',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\__init__.py',
+   'PYMODULE'),
+  ('email_validator.deliverability',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\deliverability.py',
+   'PYMODULE'),
+  ('dns.exception',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\exception.py',
+   'PYMODULE'),
+  ('dns',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\__init__.py',
+   'PYMODULE'),
+  ('dns.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\version.py',
+   'PYMODULE'),
+  ('dns.resolver',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\resolver.py',
+   'PYMODULE'),
+  ('dns.win32util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\win32util.py',
+   'PYMODULE'),
+  ('dns._features',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\_features.py',
+   'PYMODULE'),
+  ('dns.tsig',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\tsig.py',
+   'PYMODULE'),
+  ('dns.reversename',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\reversename.py',
+   'PYMODULE'),
+  ('dns.rdtypes.svcbbase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\svcbbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\__init__.py',
+   'PYMODULE'),
+  ('dns.wire',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\wire.py',
+   'PYMODULE'),
+  ('dns.tokenizer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\tokenizer.py',
+   'PYMODULE'),
+  ('dns.ttl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\ttl.py',
+   'PYMODULE'),
+  ('dns.renderer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\renderer.py',
+   'PYMODULE'),
+  ('dns.rdtypes.util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\util.py',
+   'PYMODULE'),
+  ('dns.immutable',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\immutable.py',
+   'PYMODULE'),
+  ('dns._immutable_ctx',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\_immutable_ctx.py',
+   'PYMODULE'),
+  ('dns.enum',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\enum.py',
+   'PYMODULE'),
+  ('dns.rdatatype',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdatatype.py',
+   'PYMODULE'),
+  ('dns.rdataclass',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdataclass.py',
+   'PYMODULE'),
+  ('dns.rcode',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rcode.py',
+   'PYMODULE'),
+  ('dns.query',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\query.py',
+   'PYMODULE'),
+  ('dns.xfr',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\xfr.py',
+   'PYMODULE'),
+  ('dns.zone',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\zone.py',
+   'PYMODULE'),
+  ('dns.zonetypes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\zonetypes.py',
+   'PYMODULE'),
+  ('dns.zonefile',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\zonefile.py',
+   'PYMODULE'),
+  ('dns.rrset',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rrset.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ZONEMD',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\ZONEMD.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SOA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SOA.py',
+   'PYMODULE'),
+  ('dns.node',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\node.py',
+   'PYMODULE'),
+  ('dns.grange',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\grange.py',
+   'PYMODULE'),
+  ('dns.rdataset',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdataset.py',
+   'PYMODULE'),
+  ('dns.set',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\set.py',
+   'PYMODULE'),
+  ('dns.transaction',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\transaction.py',
+   'PYMODULE'),
+  ('dns.serial',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\serial.py',
+   'PYMODULE'),
+  ('dns.quic',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\quic\\__init__.py',
+   'PYMODULE'),
+  ('dns.quic._trio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\quic\\_trio.py',
+   'PYMODULE'),
+  ('dns.quic._sync',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\quic\\_sync.py',
+   'PYMODULE'),
+  ('dns.quic._common',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\quic\\_common.py',
+   'PYMODULE'),
+  ('dns.quic._asyncio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\quic\\_asyncio.py',
+   'PYMODULE'),
+  ('dns._asyncbackend',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\_asyncbackend.py',
+   'PYMODULE'),
+  ('dns.asyncbackend',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\asyncbackend.py',
+   'PYMODULE'),
+  ('dns._asyncio_backend',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\_asyncio_backend.py',
+   'PYMODULE'),
+  ('dns.asyncresolver',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\asyncresolver.py',
+   'PYMODULE'),
+  ('dns.asyncquery',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\asyncquery.py',
+   'PYMODULE'),
+  ('dns._trio_backend',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\_trio_backend.py',
+   'PYMODULE'),
+  ('dns.nameserver',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\nameserver.py',
+   'PYMODULE'),
+  ('dns.rdata',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdata.py',
+   'PYMODULE'),
+  ('dns.rdtypes.txtbase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\txtbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.tlsabase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\tlsabase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.nsbase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\nsbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.mxbase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\mxbase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.euibase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\euibase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dsbase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\dsbase.py',
+   'PYMODULE'),
+  ('dns.dnssectypes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\dnssectypes.py',
+   'PYMODULE'),
+  ('dns.rdtypes.dnskeybase',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\dnskeybase.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.WKS',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\WKS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SVCB',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\SVCB.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.SRV',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\SRV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.PX',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\PX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP_PTR',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\NSAP_PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NSAP',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\NSAP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.NAPTR',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\NAPTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.KX',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\KX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.IPSECKEY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\IPSECKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.HTTPS',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\HTTPS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.DHCID',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\DHCID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.APL',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\APL.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.AAAA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\AAAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN.A',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.IN',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\IN\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH.A',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\CH\\A.py',
+   'PYMODULE'),
+  ('dns.rdtypes.CH',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\CH\\__init__.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.X25',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\X25.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.WALLET',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\WALLET.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.URI',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\URI.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TXT',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TXT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TSIG',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TLSA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TLSA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.TKEY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\TKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SSHFP',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SSHFP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SPF',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SPF.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.SMIMEA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\SMIMEA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RT',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RRSIG',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RRSIG.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RP',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.RESINFO',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\RESINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.PTR',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\PTR.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPT',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\OPT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.OPENPGPKEY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\OPENPGPKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3PARAM',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC3PARAM.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC3',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC3.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NSEC',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NSEC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NS',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NINFO',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.NID',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\NID.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.MX',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\MX.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LP',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\LP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.LOC',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\LOC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L64',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\L64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.L32',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\L32.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.ISDN',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\ISDN.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HIP',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\HIP.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.HINFO',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\HINFO.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.GPOS',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\GPOS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI64',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\EUI64.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.EUI48',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\EUI48.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DS',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNSKEY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DNAME',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.DLV',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\DLV.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CSYNC',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CSYNC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CNAME',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CNAME.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CERT',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CERT.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDS',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CDS.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CDNSKEY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CDNSKEY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.CAA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\CAA.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AVC',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AVC.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AMTRELAY',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AMTRELAY.py',
+   'PYMODULE'),
+  ('dns.rdtypes.ANY.AFSDB',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\rdtypes\\ANY\\AFSDB.py',
+   'PYMODULE'),
+  ('dns.name',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\name.py',
+   'PYMODULE'),
+  ('dns.message',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\message.py',
+   'PYMODULE'),
+  ('dns.update',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\update.py',
+   'PYMODULE'),
+  ('dns.opcode',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\opcode.py',
+   'PYMODULE'),
+  ('dns.entropy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\entropy.py',
+   'PYMODULE'),
+  ('dns.ipv6',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\ipv6.py',
+   'PYMODULE'),
+  ('dns.ipv4',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\ipv4.py',
+   'PYMODULE'),
+  ('dns.inet',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\inet.py',
+   'PYMODULE'),
+  ('dns.flags',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\flags.py',
+   'PYMODULE'),
+  ('dns.edns',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\edns.py',
+   'PYMODULE'),
+  ('dns._ddr',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\dns\\_ddr.py',
+   'PYMODULE'),
+  ('email_validator.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\version.py',
+   'PYMODULE'),
+  ('email_validator.validate_email',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\validate_email.py',
+   'PYMODULE'),
+  ('email_validator.rfc_constants',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\rfc_constants.py',
+   'PYMODULE'),
+  ('email_validator.syntax',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\syntax.py',
+   'PYMODULE'),
+  ('email_validator.exceptions_types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\email_validator\\exceptions_types.py',
+   'PYMODULE'),
+  ('pydantic.main',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\main.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.json',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\json.py',
+   'PYMODULE'),
+  ('pydantic.color',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\color.py',
+   'PYMODULE'),
+  ('colorsys', 'C:\\Python312\\Lib\\colorsys.py', 'PYMODULE'),
+  ('pydantic.deprecated.parse',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\deprecated\\parse.py',
+   'PYMODULE'),
+  ('pydantic.json_schema',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\json_schema.py',
+   'PYMODULE'),
+  ('pydantic.functional_validators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\functional_validators.py',
+   'PYMODULE'),
+  ('pydantic.functional_serializers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\functional_serializers.py',
+   'PYMODULE'),
+  ('pydantic.fields',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\fields.py',
+   'PYMODULE'),
+  ('pydantic.errors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\errors.py',
+   'PYMODULE'),
+  ('pydantic.config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\config.py',
+   'PYMODULE'),
+  ('pydantic.annotated_handlers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\annotated_handlers.py',
+   'PYMODULE'),
+  ('pydantic._migration',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_migration.py',
+   'PYMODULE'),
+  ('pydantic._internal._generate_schema',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py',
+   'PYMODULE'),
+  ('pydantic._internal._std_types_schema',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_std_types_schema.py',
+   'PYMODULE'),
+  ('pydantic.validators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\validators.py',
+   'PYMODULE'),
+  ('pydantic.dataclasses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\dataclasses.py',
+   'PYMODULE'),
+  ('pydantic.types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\types.py',
+   'PYMODULE'),
+  ('pydantic_core.core_schema',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_core\\core_schema.py',
+   'PYMODULE'),
+  ('pydantic_core',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_core\\__init__.py',
+   'PYMODULE'),
+  ('llm_handler',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\llm_handler.py',
+   'PYMODULE'),
+  ('requests',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\http2\\probe.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\http2\\connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('cryptography',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl.binding',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\binding.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\exceptions.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl._conditional',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\_conditional.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.bindings.openssl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\openssl\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl.backend',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\backend.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.modes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\modes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._cipheralgorithm',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\_cipheralgorithm.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.algorithms',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\algorithms.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.decrepit.ciphers.algorithms',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\decrepit\\ciphers\\algorithms.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.decrepit.ciphers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\decrepit\\ciphers\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.decrepit',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\decrepit\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.ciphers.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\ciphers\\base.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.padding',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\padding.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.rsa',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\rsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._serialization',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\_serialization.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\utils.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ec',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ec.py',
+   'PYMODULE'),
+  ('cryptography.hazmat._oid',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\_oid.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.dh',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dh.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.x25519',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.x448',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\x448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ed25519',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed25519.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.ed448',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\ed448.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.dsa',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\dsa.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives._asymmetric',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\_asymmetric.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.hashes',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\hashes.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.ssh',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\ssh.py',
+   'PYMODULE'),
+  ('bcrypt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bcrypt\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.serialization.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\base.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.constant_time',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\constant_time.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends.openssl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\backends\\openssl\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.backends',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.x509',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\__init__.py',
+   'PYMODULE'),
+  ('cryptography.x509.oid',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\oid.py',
+   'PYMODULE'),
+  ('cryptography.x509.name',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\name.py',
+   'PYMODULE'),
+  ('cryptography.x509.general_name',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\general_name.py',
+   'PYMODULE'),
+  ('cryptography.x509.extensions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\extensions.py',
+   'PYMODULE'),
+  ('cryptography.hazmat.primitives.asymmetric.types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\types.py',
+   'PYMODULE'),
+  ('cryptography.x509.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\base.py',
+   'PYMODULE'),
+  ('cryptography.x509.verification',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\verification.py',
+   'PYMODULE'),
+  ('cryptography.x509.certificate_transparency',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\x509\\certificate_transparency.py',
+   'PYMODULE'),
+  ('cryptography.__about__',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\__about__.py',
+   'PYMODULE'),
+  ('cryptography.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\utils.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'PYMODULE'),
+  ('web_retriever',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\web_retriever.py',
+   'PYMODULE'),
+  ('bs4',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\__init__.py',
+   'PYMODULE'),
+  ('bs4.element',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\element.py',
+   'PYMODULE'),
+  ('bs4.formatter',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\formatter.py',
+   'PYMODULE'),
+  ('bs4.css',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\css.py',
+   'PYMODULE'),
+  ('soupsieve',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\__init__.py',
+   'PYMODULE'),
+  ('soupsieve.css_parser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\css_parser.py',
+   'PYMODULE'),
+  ('soupsieve.css_match',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\css_match.py',
+   'PYMODULE'),
+  ('soupsieve.css_types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\css_types.py',
+   'PYMODULE'),
+  ('soupsieve.pretty',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\pretty.py',
+   'PYMODULE'),
+  ('soupsieve.util',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\util.py',
+   'PYMODULE'),
+  ('soupsieve.__meta__',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\soupsieve\\__meta__.py',
+   'PYMODULE'),
+  ('bs4.dammit',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\dammit.py',
+   'PYMODULE'),
+  ('bs4.builder',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\builder\\__init__.py',
+   'PYMODULE'),
+  ('bs4.builder._lxml',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\builder\\_lxml.py',
+   'PYMODULE'),
+  ('bs4.builder._html5lib',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\builder\\_html5lib.py',
+   'PYMODULE'),
+  ('bs4.builder._htmlparser',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bs4\\builder\\_htmlparser.py',
+   'PYMODULE'),
+  ('html.parser', 'C:\\Python312\\Lib\\html\\parser.py', 'PYMODULE'),
+  ('_markupbase', 'C:\\Python312\\Lib\\_markupbase.py', 'PYMODULE'),
+  ('config',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM chat\\backend\\config.py',
+   'PYMODULE'),
+  ('pydantic_settings',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_settings\\__init__.py',
+   'PYMODULE'),
+  ('pydantic_settings.version',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_settings\\version.py',
+   'PYMODULE'),
+  ('pydantic_settings.sources',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_settings\\sources.py',
+   'PYMODULE'),
+  ('pydantic_settings.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_settings\\utils.py',
+   'PYMODULE'),
+  ('pydantic_settings.main',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_settings\\main.py',
+   'PYMODULE'),
+  ('routers.conversations',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\routers\\conversations.py',
+   'PYMODULE'),
+  ('routers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\routers\\__init__.py',
+   'PYMODULE'),
+  ('models.chat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\models\\chat.py',
+   'PYMODULE'),
+  ('models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\models\\__init__.py',
+   'PYMODULE'),
+  ('routers.chat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\routers\\chat.py',
+   'PYMODULE'),
+  ('services.chat_service',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\services\\chat_service.py',
+   'PYMODULE'),
+  ('services',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\services\\__init__.py',
+   'PYMODULE'),
+  ('tenacity.retry',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\retry.py',
+   'PYMODULE'),
+  ('tenacity',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\__init__.py',
+   'PYMODULE'),
+  ('tenacity.tornadoweb',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\tornadoweb.py',
+   'PYMODULE'),
+  ('tenacity.asyncio',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('tenacity.asyncio.retry',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\asyncio\\retry.py',
+   'PYMODULE'),
+  ('tenacity.before_sleep',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\before_sleep.py',
+   'PYMODULE'),
+  ('tenacity.after',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\after.py',
+   'PYMODULE'),
+  ('tenacity.before',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\before.py',
+   'PYMODULE'),
+  ('tenacity.wait',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\wait.py',
+   'PYMODULE'),
+  ('tenacity.stop',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\stop.py',
+   'PYMODULE'),
+  ('tenacity.nap',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\nap.py',
+   'PYMODULE'),
+  ('tenacity._utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\tenacity\\_utils.py',
+   'PYMODULE'),
+  ('fastapi.middleware.cors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\middleware\\cors.py',
+   'PYMODULE'),
+  ('fastapi.middleware',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('starlette.middleware',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('starlette',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\__init__.py',
+   'PYMODULE'),
+  ('starlette.status',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\status.py',
+   'PYMODULE'),
+  ('starlette.middleware.cors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\middleware\\cors.py',
+   'PYMODULE'),
+  ('starlette.types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\types.py',
+   'PYMODULE'),
+  ('starlette.responses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\responses.py',
+   'PYMODULE'),
+  ('starlette.concurrency',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\concurrency.py',
+   'PYMODULE'),
+  ('starlette.background',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\background.py',
+   'PYMODULE'),
+  ('starlette._utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\_utils.py',
+   'PYMODULE'),
+  ('starlette._compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\_compat.py',
+   'PYMODULE'),
+  ('starlette.datastructures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\datastructures.py',
+   'PYMODULE'),
+  ('fastapi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.websockets',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\websockets.py',
+   'PYMODULE'),
+  ('starlette.websockets',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\websockets.py',
+   'PYMODULE'),
+  ('starlette.requests',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\requests.py',
+   'PYMODULE'),
+  ('starlette.routing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\routing.py',
+   'PYMODULE'),
+  ('starlette.convertors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\convertors.py',
+   'PYMODULE'),
+  ('multipart.multipart',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\multipart\\multipart.py',
+   'PYMODULE'),
+  ('multipart',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\multipart\\__init__.py',
+   'PYMODULE'),
+  ('multipart.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\multipart\\exceptions.py',
+   'PYMODULE'),
+  ('multipart.decoders',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\multipart\\decoders.py',
+   'PYMODULE'),
+  ('starlette.formparsers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\formparsers.py',
+   'PYMODULE'),
+  ('starlette.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\exceptions.py',
+   'PYMODULE'),
+  ('starlette.middleware.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\middleware\\exceptions.py',
+   'PYMODULE'),
+  ('fastapi.responses',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\responses.py',
+   'PYMODULE'),
+  ('fastapi.requests',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\requests.py',
+   'PYMODULE'),
+  ('fastapi.param_functions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\param_functions.py',
+   'PYMODULE'),
+  ('fastapi.openapi.models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\openapi\\models.py',
+   'PYMODULE'),
+  ('fastapi.openapi',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\openapi\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.logger',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\logger.py',
+   'PYMODULE'),
+  ('fastapi._compat',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\_compat.py',
+   'PYMODULE'),
+  ('pydantic.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\utils.py',
+   'PYMODULE'),
+  ('pydantic.typing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\typing.py',
+   'PYMODULE'),
+  ('pydantic.schema',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\schema.py',
+   'PYMODULE'),
+  ('pydantic.error_wrappers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\error_wrappers.py',
+   'PYMODULE'),
+  ('pydantic.class_validators',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic\\class_validators.py',
+   'PYMODULE'),
+  ('fastapi.openapi.constants',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\openapi\\constants.py',
+   'PYMODULE'),
+  ('fastapi.types',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\types.py',
+   'PYMODULE'),
+  ('fastapi.exceptions',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\exceptions.py',
+   'PYMODULE'),
+  ('fastapi.datastructures',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\datastructures.py',
+   'PYMODULE'),
+  ('fastapi.background',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\background.py',
+   'PYMODULE'),
+  ('fastapi.applications',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\applications.py',
+   'PYMODULE'),
+  ('starlette.middleware.errors',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\middleware\\errors.py',
+   'PYMODULE'),
+  ('starlette.middleware.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py',
+   'PYMODULE'),
+  ('starlette.applications',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\starlette\\applications.py',
+   'PYMODULE'),
+  ('fastapi.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\utils.py',
+   'PYMODULE'),
+  ('fastapi.openapi.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\openapi\\utils.py',
+   'PYMODULE'),
+  ('fastapi.encoders',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\encoders.py',
+   'PYMODULE'),
+  ('fastapi.dependencies.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\utils.py',
+   'PYMODULE'),
+  ('fastapi.dependencies',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.security.open_id_connect_url',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\open_id_connect_url.py',
+   'PYMODULE'),
+  ('fastapi.security',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\__init__.py',
+   'PYMODULE'),
+  ('fastapi.security.http',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\http.py',
+   'PYMODULE'),
+  ('fastapi.security.utils',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\utils.py',
+   'PYMODULE'),
+  ('fastapi.security.api_key',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\api_key.py',
+   'PYMODULE'),
+  ('fastapi.security.oauth2',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\oauth2.py',
+   'PYMODULE'),
+  ('fastapi.security.base',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\security\\base.py',
+   'PYMODULE'),
+  ('fastapi.concurrency',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\concurrency.py',
+   'PYMODULE'),
+  ('fastapi.dependencies.models',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\models.py',
+   'PYMODULE'),
+  ('fastapi.openapi.docs',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\openapi\\docs.py',
+   'PYMODULE'),
+  ('fastapi.middleware.asyncexitstack',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\middleware\\asyncexitstack.py',
+   'PYMODULE'),
+  ('fastapi.exception_handlers',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\exception_handlers.py',
+   'PYMODULE'),
+  ('fastapi.routing',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\routing.py',
+   'PYMODULE'),
+  ('fastapi.params',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\fastapi\\params.py',
+   'PYMODULE')],
+ [('python312.dll', 'C:\\Python312\\python312.dll', 'BINARY'),
+  ('select.pyd', 'C:\\Python312\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_lzma.pyd', 'C:\\Python312\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Python312\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('unicodedata.pyd', 'C:\\Python312\\DLLs\\unicodedata.pyd', 'EXTENSION'),
+  ('_socket.pyd', 'C:\\Python312\\DLLs\\_socket.pyd', 'EXTENSION'),
+  ('_decimal.pyd', 'C:\\Python312\\DLLs\\_decimal.pyd', 'EXTENSION'),
+  ('_hashlib.pyd', 'C:\\Python312\\DLLs\\_hashlib.pyd', 'EXTENSION'),
+  ('_ctypes.pyd', 'C:\\Python312\\DLLs\\_ctypes.pyd', 'EXTENSION'),
+  ('_queue.pyd', 'C:\\Python312\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_overlapped.pyd', 'C:\\Python312\\DLLs\\_overlapped.pyd', 'EXTENSION'),
+  ('_ssl.pyd', 'C:\\Python312\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_asyncio.pyd', 'C:\\Python312\\DLLs\\_asyncio.pyd', 'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Python312\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd', 'C:\\Python312\\DLLs\\pyexpat.pyd', 'EXTENSION'),
+  ('_wmi.pyd', 'C:\\Python312\\DLLs\\_wmi.pyd', 'EXTENSION'),
+  ('_uuid.pyd', 'C:\\Python312\\DLLs\\_uuid.pyd', 'EXTENSION'),
+  ('websockets\\speedups.cp312-win_amd64.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets\\speedups.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic_core\\_pydantic_core.cp312-win_amd64.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp312-win_amd64.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\_cffi_backend.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('cryptography\\hazmat\\bindings\\_rust.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography\\hazmat\\bindings\\_rust.pyd',
+   'EXTENSION'),
+  ('bcrypt\\_bcrypt.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\bcrypt\\_bcrypt.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp312-win_amd64.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\md__mypyc.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp312-win_amd64.pyd',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\charset_normalizer\\md.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll', 'C:\\Python312\\VCRUNTIME140.dll', 'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-3.dll', 'C:\\Python312\\DLLs\\libcrypto-3.dll', 'BINARY'),
+  ('libffi-8.dll', 'C:\\Python312\\DLLs\\libffi-8.dll', 'BINARY'),
+  ('libssl-3.dll', 'C:\\Python312\\DLLs\\libssl-3.dll', 'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll', 'C:\\Python312\\VCRUNTIME140_1.dll', 'BINARY'),
+  ('python3.dll', 'C:\\Python312\\python3.dll', 'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-17\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-17\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY')],
+ [],
+ [],
+ [('.env',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM chat\\backend\\.env',
+   'DATA'),
+  ('base_library.zip',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\build\\main\\base_library.zip',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('certifi\\py.typed',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\INSTALLER',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\licenses\\LICENSE.APACHE',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\licenses\\LICENSE.APACHE',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\licenses\\LICENSE.BSD',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\licenses\\LICENSE.BSD',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\licenses\\LICENSE',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\METADATA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\WHEEL',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('cryptography-44.0.0.dist-info\\RECORD',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\cryptography-44.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-14.1.dist-info\\METADATA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\METADATA',
+   'DATA'),
+  ('websockets-14.1.dist-info\\REQUESTED',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('websockets-14.1.dist-info\\RECORD',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-14.1.dist-info\\INSTALLER',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('websockets-14.1.dist-info\\top_level.txt',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('websockets-14.1.dist-info\\LICENSE',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\wheel-0.43.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('websockets-14.1.dist-info\\WHEEL',
+   'c:\\Users\\ELITEBOOK 840 G3\\Desktop\\local LLM '
+   'chat\\backend\\.venv\\Lib\\site-packages\\websockets-14.1.dist-info\\WHEEL',
+   'DATA')])

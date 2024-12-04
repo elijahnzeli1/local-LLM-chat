@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-gray-100 antialiased;
+  }
+
+  #root {
+    @apply h-screen;
+  }
+}
+
+@layer components {
+  .chat-input {
+    @apply w-full bg-dark rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50;
+  }
+
+  .primary-button {
+    @apply flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white rounded-lg py-3 px-4 font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .sidebar-item {
+    @apply flex items-center gap-3 p-3 rounded-lg hover:bg-dark/50 cursor-pointer transition-colors;
+  }
+
+  .sidebar-item.active {
+    @apply bg-dark text-primary;
+  }
+
+  /* Message styles */
+  .message-content {
+    color: white !important;
+    opacity: 1 !important;
+  }
+
+  .message-timestamp {
+    color: rgba(255, 255, 255, 0.7) !important;
+    opacity: 1 !important;
+  }
+
+  /* Ensure dark theme text is always visible */
+  .bg-dark-light {
+    color: white !important;
+  }
+
+  /* Improve text contrast */
+  .text-gray-300 {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+}

@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="#1A1A1A"/>
+  
+  <!-- Chat Bubbles -->
+  <path d="M38 78C38 83.5228 42.4772 88 48 88H80C85.5228 88 90 83.5228 90 78V50C90 44.4772 85.5228 40 80 40H48C42.4772 40 38 44.4772 38 50V78Z" fill="#10B981"/>
+  
+  <!-- Dots -->
+  <circle cx="54" cy="64" r="4" fill="white"/>
+  <circle cx="64" cy="64" r="4" fill="white"/>
+  <circle cx="74" cy="64" r="4" fill="white"/>
+</svg>

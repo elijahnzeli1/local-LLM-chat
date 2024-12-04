@@ -1,0 +1,44 @@
+{
+  "name": "local-llm-chat",
+  "version": "1.0.0",
+  "description": "Local LLM Chat Analytics Dashboard",
+  "main": "main.js",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.local-llm-chat",
+    "productName": "Local LLM Chat",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "package.json",
+      "../dist/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend/dist/main",
+        "to": "backend/main.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "../public/logo.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.6.4",
+    "electron-is-dev": "^2.0.0"
+  }
+}
