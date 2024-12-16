@@ -11,11 +11,12 @@ const api = axios.create({
 
 export class ChatService {
     static async sendMessage(chatMessage: ChatMessage): Promise<ChatResponse> {
+        const conversationId = chatMessage.conversationId || 'default';
         try {
-            const response = await api.post('/chat', {
+            const response = await api.post(`/chat/${conversationId}/message`, {
                 message: chatMessage.message,
                 conversation_id: chatMessage.conversationId,
-                use_internet: chatMessage.useInternet
+                use_internet: chatMessage.useInternet || false
             });
             return response.data;
         } catch (error) {

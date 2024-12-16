@@ -90,3 +90,6 @@ This combination provides a robust and efficient solution for building an AI cha
    pip install pyinstaller
 4. Build the application: pyinstaller --onefile main.py
 5. Run the application: streamlit run main.py
+
+command to run the app backend: uvicorn main:app --reload --host 0.0.0.0 --port 8000, for env file: uvicorn main:app --reload --host 0.0.0.0 --port 8000 --env-file .env, .venv\Scripts\Activate
+command to run the app frontend: npm run dev
